@@ -115,7 +115,6 @@ void postOrder(TreeNodePtr treePtr)
       postOrder(treePtr->leftPtr);  // Recursion to the left
       postOrder(treePtr->rightPtr); // Recursion to the right
       printf("%3d", treePtr->data);
-
       // print the value
 
    } // end if
