@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
    // traverse the tree postOrder
    printf("\nThe postnOrder traversal is:\n");
-   postOrder(b.root);
+   postOrder (b.root);
 
    printf("\n");
 } // end main
