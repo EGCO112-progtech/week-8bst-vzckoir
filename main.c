@@ -27,4 +27,6 @@ int main(int argc, char **argv)
    postOrder (b.root);
 
    printf("\n");
+   printf("\nThe TreeOrder traversal is:\n");
+   printTree(b.root,0);
 } // end main

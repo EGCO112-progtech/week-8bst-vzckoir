@@ -119,3 +119,14 @@ void postOrder(TreeNodePtr treePtr)
 
    } // end if
 } // end
+
+void printTree(TreeNodePtr treePtr, int level){
+   if(treePtr!=NULL){
+      printTree(treePtr->rightPtr,level+1);
+      for(int i = 0; i < level;i++){
+         printf("   ");
+      }
+      printf("%3d\n",treePtr->data);
+      printTree(treePtr->leftPtr,level+1);
+   }
+}
