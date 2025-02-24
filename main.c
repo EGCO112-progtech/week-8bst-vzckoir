@@ -23,7 +23,7 @@ int main(int argc, char **argv)
    inOrder(b.root);
 
    // traverse the tree postOrder
-   printf("\nThe postnOrder traversal is:\n");
+   printf("\nThe postOrder traversal is:\n");
    postOrder (b.root);
 
    printf("\n");
